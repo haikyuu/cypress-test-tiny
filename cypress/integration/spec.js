@@ -1,3 +1,5 @@
 describe('page', () => {
-  it('works', () => {})
+  it('does not work', () => {
+    cy.visit('http://harley-davidson.com')
+  })
 })
